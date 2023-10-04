@@ -1,5 +1,3 @@
-package list.basico;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,3 +45,4 @@ public class ListaTarefas {
         listaTarefas.obterDescricaoTarefas();
     }
 }
+
