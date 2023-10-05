@@ -34,6 +34,7 @@ public class ConjuntoPalavrasUnicas {
         ConjuntoPalavrasUnicas conjuntoPalavrasUnicas = new ConjuntoPalavrasUnicas();
 
         conjuntoPalavrasUnicas.adicionarPalavra("casa");
+        conjuntoPalavrasUnicas.adicionarPalavra("casa");
         conjuntoPalavrasUnicas.adicionarPalavra("carro");
         conjuntoPalavrasUnicas.adicionarPalavra("chapeu");
         conjuntoPalavrasUnicas.adicionarPalavra("sapato");
