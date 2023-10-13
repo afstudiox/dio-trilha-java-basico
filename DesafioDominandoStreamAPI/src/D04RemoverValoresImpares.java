@@ -1,13 +1,12 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class D8SomarTodaLista {
+public class D04RemoverValoresImpares {
     public static void main(String[] args) {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
-        int soma = numeros.stream()
-        .reduce(0, (a, b) -> a + b);
-
-        System.out.println(soma);
+        numeros.stream()
+        .filter(numero -> numero % 2 == 0)
+        .forEach(System.out::println);
     }
 }
